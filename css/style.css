@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a 
+{
+    text-decoration: none;
+    display: inline-block;
+}
+body 
+{
+    background: #F1F1F1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+header 
+{
+    text-align: center;
+    padding: 20px 0;
+}
+header span 
+{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: 500;
+}
+main
+{
+    max-width: 1200px;
+    margin:auto;
+    padding: 30px 0;
+}
+section
+{
+    width: 66%;
+    float: left;
+}
+aside 
+{
+    width: 30%;
+    float: right;
+}
+article
+{
+    background: #fff;
+    box-shadow: 0px 0px 3px 2px #ccc;
+    margin-bottom: 25px;
+}
+article img 
+{
+    width: 100%;
+}
+.p-3 
+{
+    padding: 15px;
+}
+.btn 
+{
+    border: 1px solid #000;
+    padding:10px;
+    text-decoration: none;
+    color: #000;
+}
+footer 
+{
+    background: #616161;
+    clear: both;
+    color: #fff;
+    padding: 20px;
+}
+.btn1
+{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+.p5 
+{
+    padding-top: 20px;
+}
+.post-title
+{
+    background: #F1F1F1;
+    padding: 20px;
+}
+.post
+{
+    box-shadow: 0px 0px 2px 3px #ccc;
+    margin-bottom: 25px;
+}
+.post-body
+{
+    background: #fff;
+}
+nav
+{
+    text-align: center;
+}
+nav ul 
+{
+    list-style: none;
+}
+nav li 
+{
+    display: inline;
+}
+nav a 
+{
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+aside img 
+{
+    width: 50px; height: 50px;
+    float: left;
+    padding-right: 10px;
+}
+aside li 
+{
+    clear: both;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 15px 15px 15px;
+
+}
+aside ul 
+{
+    list-style: none;
+}
+
+@media(max-width: 992px)
+{
+    section, aside{ width: 100%; float: none;}
+    main{ padding: 20px;}
+}
